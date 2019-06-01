@@ -100,7 +100,7 @@ if ($ok) {
 		$notify_message .= "Author : $comment_author (IP: $user_ip , $user_domain)\r\n";
 		$notify_message .= "E-mail : $comment_author_email\r\n";
 		$notify_message .= "URL : $comment_author_url\r\n";
-		$notify_message .= "Whois : http://ws.arin.net/cgi-bin/whois.pl?queryinput=$user_ip"\r\n;
+		$notify_message .= "Whois : http://ws.arin.net/cgi-bin/whois.pl?queryinput=$user_ip\r\n";
 		$notify_message .= "Comment: \n" . stripslashes($original_comment) . "\r\n\r\n";
 		$notify_message .= "You can see all comments on this post here: \r\n";
 		$notfiy_message .= comments_link('', false);
